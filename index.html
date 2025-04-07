@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Flashcards de Code" />
+    <meta name="keywords" content="Flashcards, Code, Apprentissage" />
+    <meta author="Deborah Clerckx" />
+    <title>FlashCode - Flashcards de Code</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script defer src="/js/script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>FlashCode</h1>
+
+      <!-- MOBILE -->
+      <select class="category-select">
+        <option value="POO">POO</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Vocabulaire">Vocabulaire</option>
+        <option value="CSharp">C#</option>
+      </select>
+
+      <!-- DESKTOP -->
+      <div class="category-btns">
+        <button class="category-btn" data-category="POO">POO</button>
+        <button class="category-btn" data-category="JavaScript">JavaScript</button>
+        <button class="category-btn" data-category="Vocabulaire">Vocabulaire</button>
+        <button class="category-btn" data-category="CSharp">C#</button>
+      </div>
+
+      <div class="card" id="flashcard">
+        <div class="card-inner">
+          <div class="card-front" id="card-front">
+            <div class="card-content">
+              <h2 id="titre">Titre</h2>
+              <p id="id">Id</p>
+            </div>
+            <div class="card-content">
+              <p id="question">Question</p>
+            </div>
+          </div>
+
+          <div class="card-back" id="card-back">
+            <p id="reponse">Réponse</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="btn" id="flip-btn">Réponse</button>
+        <button class="btn" id="next-btn">Question suivante</button>
+      </div>
+    </div>
+
+    
+  </body>
+</html>

@@ -1,0 +1,187 @@
+{
+  "POO": {
+    "titre": "POO",
+    "flashcards": [
+      {
+        "id": 1,
+        "question": "Qu'est-ce que la POO ?",
+        "reponse": "La POO est un paradigme de programmation qui organise le logiciel en objets, qui sont des instances de classes. Chaque objet représente une entité du monde réel et possède des propriétés (attributs) et des comportements (méthodes). L'objectif est de modéliser des systèmes complexes de manière plus naturelle, modulaire et réutilisable."
+      },
+      {
+        "id": 2,
+        "question": "Quels sont les principes fondamentaux de la POO ?",
+        "reponse": "Encapsulation\nHéritage\nPolymorphisme\nAbstraction"
+      },
+      {
+        "id": 3,
+        "question": "Qu'est-ce que l'encapsulation ?",
+        "reponse": "L'encapsulation consiste à regrouper les données et les méthodes qui agissent sur ces données au sein d'une même entité (classe). Cela permet de protéger les données internes de l'objet et de contrôler leur accès via des méthodes publiques."
+      },
+      {
+        "id": 4,
+        "question": "Qu'est-ce que l'héritage ?",
+        "reponse": "L'héritage est un mécanisme qui permet de créer une nouvelle classe (classe dérivée) à partir d'une classe existante (classe de base). La classe dérivée hérite des attributs et des méthodes de la classe de base, ce qui favorise la réutilisation du code."
+      },
+      {
+        "id": 5,
+        "question": "Qu'est-ce que le polymorphisme ?",
+        "reponse": "Le polymorphisme est la capacité d'un objet à prendre plusieurs formes. En POO, cela signifie qu'une méthode peut être définie dans une classe de base et redéfinie dans une classe dérivée, permettant ainsi d'utiliser la même méthode sur différents types d'objets."
+      },
+      {
+        "id": 6,
+        "question": "Qu'est-ce que l'abstraction ?",
+        "reponse": "L'abstraction est le principe qui consiste à ne montrer que les détails essentiels d'un objet tout en cachant les détails non pertinents. Cela permet de simplifier la complexité du système en se concentrant sur les aspects importants."
+      },
+      {
+        "id": 7,
+        "question": "Qu'est-ce qu'une classe ?",
+        "reponse": "Une classe est un modèle ou un plan qui définit les attributs et les méthodes d'un objet. Elle sert de base pour créer des instances (objets) de cette classe."
+      },
+      {
+        "id": 8,
+        "question": "Qu'est-ce qu'un objet ?",
+        "reponse": "Un objet est une instance d'une classe. Il possède ses propres valeurs pour les attributs définis dans la classe et peut utiliser les méthodes de cette classe."
+      },
+      {
+        "id": 9,
+        "question": "Qu'est-ce qu'une méthode ?",
+        "reponse": "Une méthode est une fonction définie à l'intérieur d'une classe qui décrit un comportement ou une action que l'objet peut effectuer."
+      },
+      {
+        "id": 10,
+        "question": "Qu'est-ce qu'un attribut ?",
+        "reponse": "Un attribut est une variable définie dans une classe qui représente une caractéristique ou une propriété de l'objet."
+      },
+      {
+        "id": 11,
+        "question": "Qu'est-ce qu'un constructeur ?",
+        "reponse": "Un constructeur est une méthode spéciale qui est appelée lors de la création d'un objet. Il initialise les attributs de l'objet."
+      },
+      {
+        "id": 12,
+        "question": "Qu'est-ce qu'une interface ?",
+        "reponse": "Une interface est un contrat qui définit un ensemble de méthodes qu'une classe doit implémenter. Elle permet de garantir que certaines méthodes seront présentes dans les classes qui l'implémentent."
+      },
+      {
+        "id": 13,
+        "question": "Qu'est-ce qu'une classe abstraite ?",
+        "reponse": "Une classe abstraite est une classe qui ne peut pas être instanciée directement. Elle peut contenir des méthodes abstraites (sans corps) et des méthodes concrètes (avec corps). Les classes dérivées doivent implémenter les méthodes abstraites."
+      },
+      {
+        "id": 14,
+        "question": "Qu'est-ce que le mot-clé 'this' ?",
+        "reponse": "Le mot-clé 'this' fait référence à l'objet courant dans lequel le code est exécuté. Il est utilisé pour accéder aux attributs et aux méthodes de l'objet."
+      },
+      {
+        "id": 15,
+        "question": "Qu'est-ce que le mot-clé 'super' ?",
+        "reponse": "Le mot-clé 'super' est utilisé pour appeler le constructeur ou les méthodes de la classe parente depuis une classe dérivée."
+      },
+      {
+        "id": 16,
+        "question": "Qu'est-ce que le mot-clé 'static' ?",
+        "reponse": "Le mot-clé 'static' est utilisé pour définir des membres (attributs ou méthodes) qui appartiennent à la classe elle-même plutôt qu'à une instance spécifique de la classe."
+      },
+      {
+        "id": 17,
+        "question": "Qu'est-ce que le mot-clé 'final' ?",
+        "reponse": "Le mot-clé 'final' est utilisé pour déclarer une variable, une méthode ou une classe qui ne peut pas être modifiée ou étendue."
+      },
+      {
+        "id": 18,
+        "question": "Qu'est-ce que le mot-clé 'abstract' ?",
+        "reponse": "Le mot-clé 'abstract' est utilisé pour déclarer une classe ou une méthode qui ne peut pas être instanciée ou qui n'a pas d'implémentation complète."
+      },
+      {
+        "id": 19,
+        "question": "Qu'est-ce que le mot-clé 'private' ?",
+        "reponse": "Le mot-clé 'private' est utilisé pour déclarer des membres (attributs ou méthodes) qui ne peuvent être accessibles qu'à l'intérieur de la classe."
+      },
+      {
+        "id": 20,
+        "question": "Qu'est-ce que le mot-clé 'protected' ?",
+        "reponse": "Le mot-clé 'protected' est utilisé pour déclarer des membres (attributs ou méthodes) qui peuvent être accessibles à l'intérieur de la classe et par les classes dérivées."
+      },
+      {
+        "id": 21,
+        "question": "Qu'est-ce que le mot-clé 'public' ?",
+        "reponse": "Le mot-clé 'public' est utilisé pour déclarer des membres (attributs ou méthodes) qui peuvent être accessibles de n'importe où dans le code."
+      },
+      {
+        "id": 22,
+        "question": "Qu'est-ce que le mot-clé 'void' ?",
+        "reponse": "Le mot-clé 'void' est utilisé pour déclarer une méthode qui ne retourne pas de valeur."
+      },
+      {
+        "id": 23,
+        "question": "Qu'est-ce qu'un tableau ?",
+        "reponse": "Un tableau est une structure de données qui permet de stocker plusieurs valeurs du même type dans une seule variable."
+      },
+      {
+        "id": 24,
+        "question": "Qu'est-ce qu'une collection ?",
+        "reponse": "Une collection est une structure de données qui permet de stocker un groupe d'objets. Les collections peuvent être dynamiques et redimensionnables."
+      },
+      {
+        "id": 25,
+        "question": "Qu'est-ce qu'une exception ?",
+        "reponse": "Une exception est un événement qui se produit pendant l'exécution d'un programme et qui interrompt le flux normal du programme. Les exceptions peuvent être gérées à l'aide de blocs try-catch."
+      },
+      {
+        "id": 26,
+        "question": "Qu'est-ce que la sérialisation ?",
+        "reponse": "La sérialisation est le processus de conversion d'un objet en un format qui peut être stocké ou transmis, puis reconstruit plus tard."
+      },
+      {
+        "id": 27,
+        "question": "Qu'est-ce que la désérialisation ?",
+        "reponse": "La désérialisation est le processus inverse de la sérialisation, où un objet est reconstruit à partir de son format sérialisé."
+      },
+      {
+        "id": 28,
+        "question": "Qu'est-ce que le mot-clé 'volatile' ?",
+        "reponse": "Le mot-clé 'volatile' est utilisé pour déclarer une variable qui peut être modifiée par plusieurs threads simultanément. Cela garantit que la variable est toujours lue à partir de la mémoire principale."
+      },
+      {
+        "id": 29,
+        "question": "Qu'est-ce que le mot-clé 'synchronized' ?",
+        "reponse": "Le mot-clé 'synchronized' est utilisé pour déclarer une méthode ou un bloc de code qui ne peut être exécuté que par un seul thread à la fois, garantissant ainsi la sécurité des threads."
+      },
+      {
+        "id": 30,
+        "question": "Qu'est-ce que le mot-clé 'transient' ?",
+        "reponse": "Le mot-clé 'transient' est utilisé pour déclarer un attribut qui ne doit pas être sérialisé. Cela signifie que sa valeur ne sera pas enregistrée lors de la sérialisation de l'objet."
+      },
+      {
+        "id": 31,
+        "question": "Qu'est-ce que le mot-clé 'native' ?",
+        "reponse": "Le mot-clé 'native' est utilisé pour déclarer une méthode qui est implémentée dans un langage natif (comme C ou C++) plutôt que dans le langage de programmation courant."
+      },
+      {
+        "id": 32,
+        "question": "Qu'est-ce que le mot-clé 'strictfp' ?",
+        "reponse": "Le mot-clé 'strictfp' est utilisé pour restreindre les calculs flottants à un comportement strict et portable, garantissant ainsi des résultats cohérents sur différentes plateformes."
+      },
+      {
+        "id": 33,
+        "question": "Qu'est-ce que le mot-clé 'assert' ?",
+        "reponse": "Le mot-clé 'assert' est utilisé pour déclarer une assertion, qui est une condition qui doit être vraie à un certain point du programme. Si l'assertion échoue, une exception est levée."
+      },
+      {
+        "id": 34,
+        "question": "Qu'est-ce que le mot-clé 'enum' ?",
+        "reponse": "Le mot-clé 'enum' est utilisé pour déclarer un type énuméré, qui est une liste de constantes nommées. Cela permet de définir un ensemble de valeurs possibles pour une variable."
+      }
+    ]
+  },
+  "JavaScript": {
+    "titre": "JavaScript",
+    "flashcards": [
+      {
+        "id": 1,
+        "question": "C'est quoi JavaScript ?",
+        "reponse": "JavaScript est un langage de programmation côté client utilisé dans les pages web."
+      }
+    ]
+  }
+}
