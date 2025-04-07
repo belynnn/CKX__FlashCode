@@ -133,7 +133,7 @@ h2 {
 /* Media queries pour les petits écrans */
 /* Sur les petits écrans (max 768px) */
 @media screen and (max-width: 768px) {
-  .category-buttons {
+  .category-btns {
     display: none; /* Cacher les boutons sur petits écrans */
   }
 
@@ -165,7 +165,7 @@ h2 {
     font-size: 2rem; /* Ajuster la taille de h2 pour les très petits écrans */
   }
 
-  .category-buttons {
+  .category-btns {
     display: none; /* Cacher les boutons sur petits écrans */
   }
 
