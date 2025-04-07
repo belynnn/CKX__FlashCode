@@ -4,7 +4,7 @@ let currentCategory = ''; // Catégorie en cours
 let flashcardData = {}; // Variable pour stocker toutes les données JSON
 
 // Récupérer le fichier JSON avec les flashcards
-fetch('/data/flashcards.json')
+fetch('./data/flashcards.json')
   .then(response => response.json())
   .then(data => {
     flashcardData = data; // Stocker l'objet JSON dans flashcardData
