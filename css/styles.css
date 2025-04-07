@@ -165,6 +165,10 @@ h2 {
     font-size: 2rem; /* Ajuster la taille de h2 pour les très petits écrans */
   }
 
+  .category-buttons {
+    display: none; /* Cacher les boutons sur petits écrans */
+  }
+
   .card {
     width: 85%; /* Largeur plus grande sur les petits écrans */
     height: 55%;
