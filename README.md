@@ -19,3 +19,4 @@ Et la cerise sur le gâteau : tout cela est open-source ! Ainsi, chacun peut y c
 - GitHub
 - Markdown
 - Visual Studio Code
+- W3C Validator
